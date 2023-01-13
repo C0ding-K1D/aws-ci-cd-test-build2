@@ -7,7 +7,7 @@ export const API_BASE_URL =
   process.env.NODE_ENV == "production" ||
   process.env.REACT_APP_DEV_REMOTE == "remote"
     ? "https://Newcloudcrowd-env.eba-tvgugfpd.us-east-1.elasticbeanstalk.com/api"
-    : "https://Newcloudcrowd-env.eba-tvgugfpd.us-east-1.elasticbeanstalk.com/api";
+    : "https://34.226.222.253:8888";
 
 // export const API_BASE_URL = "https://starter-mern.herokuapp.com/api/";
 export const ACCESS_TOKEN_NAME = "x-auth-token";
