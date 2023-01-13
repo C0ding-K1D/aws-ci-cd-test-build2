@@ -6,8 +6,8 @@ console.log(
 export const API_BASE_URL =
   process.env.NODE_ENV == "production" ||
   process.env.REACT_APP_DEV_REMOTE == "remote"
-    ? "https://172.31.42.16"
-    : "http://localhost:8888";
+    ? "https://Myprojectcicd-env.eba-yztimgpp.us-east-1.elasticbeanstalk.com"
+    : "https://Myprojectcicd-env.eba-yztimgpp.us-east-1.elasticbeanstalk.com";
 
 // export const API_BASE_URL = "https://starter-mern.herokuapp.com/api/";
 export const ACCESS_TOKEN_NAME = "x-auth-token";
